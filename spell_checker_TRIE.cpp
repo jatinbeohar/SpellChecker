@@ -65,7 +65,7 @@ void suggest(string key,int pos, class node * root){
 }
 
 int main(){
-	system("cls")
+	system("cls");
     ifstream in("wordlist.txt");
     string word,current="",key;
     node *root;
